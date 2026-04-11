@@ -41,7 +41,8 @@ This plugin is distributed via the Claude Code plugin marketplace. To install:
 Or via the CLI:
 
 ```bash
-claude plugin install preflight
+claude plugins marketplace add odyssey-kk/preflight
+claude plugin install preflight@odyssey
 ```
 
 ## Configuration
