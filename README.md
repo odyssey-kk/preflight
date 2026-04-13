@@ -10,7 +10,7 @@ Preflight transforms Claude Code into an architect-grade coding assistant. Befor
 
 - **Intent Transparency**: Before any non-trivial operation, explains what Claude plans to do
 - **Architect-Grade Review**: Semantic explanations help teams understand and audit AI actions
-- **Zero External Dependencies**: All explanation logic runs locally, no external LLM services
+- **Zero External Dependencies**: All explanation logic runs locally — no external LLM services involved
 - **Seamless Integration**: Works automatically on session start via SessionStart hook
 
 ## How It Works

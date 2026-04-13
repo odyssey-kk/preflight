@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
 # preflight SessionStart hook script for Claude Code plugin.
-# Injecting additionalcontext so Claude can explains what it plans to do before executing any unfamiliar commands, improving reviewability and security.
+# Injecting additional context so Claude can explain what it plans to do before executing any unfamiliar commands, improving reviewability and security.
 
 json_escape() {
   local value=$1
-  local quote='"'
   value=${value//\\/\\\\}
-  value=${value//$quote/\\$quote}
+  value=${value//'"'/\\\"}
   value=${value//$'\n'/\\n}
   value=${value//$'\r'/\\r}
   value=${value//$'\t'/\\t}
