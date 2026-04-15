@@ -1,6 +1,6 @@
 {
   "name": "preflight",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Operate as a Google Senior Architect: before executing any unfamiliar commands, Claude Code explains what it plans to do. It generates inline explanations for shell commands and file edits locally, with no external LLM services involved, improving reviewability and security.",
   "author": {
     "name": "Komoribe"
